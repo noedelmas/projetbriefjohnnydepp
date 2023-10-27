@@ -11,4 +11,14 @@ header{
     opacity: calc(50%);
     max-width: 50%; 
     justify-content: space-around;
+    margin: auto;
+}
+.soustitre{
+    color: #000;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    align-items: center;
 }
