@@ -36,5 +36,17 @@ body{
     border-radius: 100px;
 }
 p{   
-    color: white;
+color: white;
+}
+.sauvage{
+    display: flex;
+    justify-content: center;
+}
+.container2{
+    margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
 }
