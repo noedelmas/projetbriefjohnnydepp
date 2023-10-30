@@ -3,12 +3,20 @@ header{
     width: 100%;
     height: 50%;
 }
+.container__center{
+    display: flex;
+    align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
 .entete{
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #4d4949;
-    max-width: 75%;
+    max-width: 25%;
     height: 50px;
     justify-content: space-around;
     margin: auto;
@@ -27,7 +35,7 @@ body{
     background-color: #1A1818;
     min-height: 1000px;
 }
-.container{
+.containers{
     margin: auto;
     align-items: center;
     display: flex;
@@ -59,14 +67,17 @@ color: white;
     align-content: center;
 }
 .resume{
+    max-width: 50%;
     height: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
     align-content: center;
 }
 footer{
     color: white;
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
 @media(max-width: 1074px){ 
     .keywords{max-width: 275px;}
@@ -75,10 +86,7 @@ footer{
 @media(max-width: 1440px){
     .keywords{max-width: 300px;}
     .resume{max-width: 600px;}
-    .horizon{
-        display: flex;
-        flex-direction: row;
-    }
+    
 }
 @media(max-width: 430px){
     .keywords{max-width: 300px;
@@ -88,6 +96,31 @@ footer{
     align-content: center;
     justify-content: space-around;}
     .resume{max-width: 600px;}
+    .entete{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #4d4949;
+        max-width: 100%;
+        height: 50px;
+        justify-content: space-around;
+        border-radius: 25px;}
+}
+@media(max-width: 429px){
+    article{
+        display: flex;
+        font-size: 20px;
+        background-color: #4d4949;
+        justify-content: space-around;
+        border-radius: 25px;
+    }
+}
+@media(min-width: 431px){
+    .entete{
+    background-color: #4d4949;
+    min-width: 300px;
+    justify-content: space-around;
+}
 }
 figcaption{
     color: white;
